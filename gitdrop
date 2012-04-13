@@ -1,0 +1,11 @@
+#!/bin/bash
+
+DIR="/Users/tbenzige/Projects/gitdrop"
+BASE=`basename $1`
+
+cp $1 $DIR
+cd $DIR
+git add $BASE
+git commit -m "$BASE added"
+git push origin master
+echo "http://tylerbenziger.githup.com/gitdrop/$BASE" | pbcopy
