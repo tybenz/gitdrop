@@ -8,4 +8,4 @@ cd $DIR
 git add $BASE
 git commit -m "$BASE added"
 git push origin gh-pages
-echo "http://tylerbenziger.github.com/gitdrop/$BASE" | pbcopy
+echo "http://aws0.me/$BASE" | pbcopy
