@@ -1,15 +1,12 @@
 #!/bin/bash
 
-DIR="/Users/tbenzige/Projects/gitdrop"
+DIR="/Users/tbenzige/Projects/aws"
+URL="http://awes0.me"
 BASE=`basename $1`
 
 cp $1 $DIR
 cd $DIR
-sed "s/<\/ul>/\\`echo -e '\t'`<li><a href=\"http:\/\/awes0.me\/$BASE\">$BASE<\/a><\/li>\\`echo -e '\n\r'`<\/ul>/g" < index.html > index_new.html
-rm index.html
-mv index_new.html index.html
 git add $BASE
-git add .
 git commit -m "$BASE added"
 git push origin gh-pages
-echo "http://awes0.me/$BASE" | pbcopy
+echo "$URL/$BASE" | pbcopy
