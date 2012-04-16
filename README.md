@@ -6,7 +6,7 @@ Project Page [here](http://tylerbenziger.github.com/gitdrop)
 This Mac application is meant for using your GitHub Page as a file server. 
 It behaves identically to [Dockdrop](http://dockdropx.com/) in that all you do is drag a file to the GitDrop icon. 
 Gitdrop will then add your file into your local repository and push it up to the remote repo,
-putting the link to the file in your clipboard. This will allow users to quickly share files using a GitHub Pages Repository.
+putting the link to the file in your clipboard. This will allow users to quickly share files using a GitHub Pages repository.
 
 
 ### Configuring the App
