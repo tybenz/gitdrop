@@ -11,8 +11,8 @@ putting the link to the file in your clipboard. This will allow users to quickly
 
 ### Configuring the App
 When you download the zip, you will get a .app file. Paste this file into your Applications directory and drag it to your dock. 
-To configure the app, right click on the app in Finder and click \"Show Package Contents\". 
-Then go to Contents/Resources and edit the file \"script\" in your favorite text editor. Edit the DIR and URL variables to the appropriate values and save.
+To configure the app, right click on the app in Finder and click "Show Package Contents". 
+Then go to Contents/Resources and edit the file "script" in your favorite text editor. Edit the DIR and URL variables to the appropriate values and save.
 
 ```
 $ DIR="/path/to/your/repo"
