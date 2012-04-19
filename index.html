@@ -46,11 +46,28 @@
 
 <h3>Configuring the App</h3>
 
-<p>When you download the zip, you will get a .app file. Paste this file into your Applications directory and drag it to your dock. To configure the app, right click on the app in Finder and click "Show Package Contents". Then go to Contents/Resources and edit the file "script" in your favorite text editor. Edit the DIR and URL variables to the appropriate values and save.</p>
+<p>To get the most out of Gitdrop you should have a special GitHub Page meant for hosting files you need to share. If you don't already have one that will work, here's how you can create one:</p>
 
-<pre><code>$ DIR="/path/to/your/repo"
-$ URL="yourdomain.com"
+<ol>
+	<li>Create a <a target="_blank" href="https://github.com/new">new GitHub repository</a>. Call it something like "Share"</li>
+	<li>Create a GitHub Page for it by following the instructions <a target="_blank" href="">here</a></li>
+	<li>Clone the repo onto your local machine</li>
+</ol>
+
+<p>Now to actually configure the app:</p>
+
+<ol>
+	<li>Paste the GitDrop.app file into your Applications directory and drag it to your dock.</li>
+	<li>Right click on the app in Finder and click "Show Package Contents"</li>
+	<li>Go to Contents/Resources and edit the file "script" in your favorite text editor.</li>
+	<li>Edit the DIR and URL variables to the appropriate values (see below) and save</li>
+</ol>
+
+<pre><code>DIR="path/to/your/local/repo"
+URL="yourgithubpage.com"
 </code></pre>
+
+<p>You now have a quick and easy way to share files by merely dragging a file to GitDrop and pasting the URL pointing to your GitHub Page.</p>
 
 <p>That's it! You're ready to start using GitDrop. Tell your friends!</p>
 
