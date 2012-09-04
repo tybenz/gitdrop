@@ -1,0 +1,33 @@
+.main:after {
+  content: url(../img/gitdrop_bg.png);
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+a, a:hover, a:active, a:visited {
+  color: #00f;
+}
+
+.sidebar {
+  border-width: 0 1px 0 0;
+  border-style: solid;
+  border-color: black;
+}
+
+.sidebar .nav li:hover {
+  background-color: #222;
+  color: white;
+}
+
+.post .post-header {
+  border-bottom: 1px solid #000;
+}
+
+@media only screen and (max-width: 760px) {
+  .sidebar {
+    border-width: 0 0 1px 0;
+  }
+}

@@ -1,0 +1,25 @@
+a, a:hover, a:active, a:visited {
+  color: #00f;
+}
+
+.sidebar {
+  background-color: #1D1F21;
+  color: #e5e5e5;
+}
+
+.sidebar .nav li {
+  color: #BA100E;
+}
+
+.sidebar .nav li:hover {
+  background-color: #000;
+}
+
+.post .post-header {
+  color: #65ADEF;
+  border-bottom: 1px solid black;
+}
+
+.sidebar .social img {
+  border: 2px solid white;
+}

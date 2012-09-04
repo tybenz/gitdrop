@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<meta charset="utf-8">
+	<title>Gitdrop | Tyler Benziger</title>
+	<meta name="author" content="Tyler Benziger">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+  <link href="css/bitstream.css" type="text/css" rel="stylesheet">
+  <link href="css/styles.css" type="text/css" rel="stylesheet">
+  <link href="css/gitdrop.css" type="text/css" rel="stylesheet">
+  <link href="css/code.css" type="text/css" rel="stylesheet">
+
+	<script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-33073396-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+	</script>
+</head>
+<body>
+    
+  
+  <div class="sidebar">
+    <div class="header">
+      <h1>Gitdrop</h1>
+    </div>
+    <ul class="nav">
+      <li>
+        <a href="http://github.com/tybenz/gitdrop/zipball/master">Zip</a>
+      </li>
+      <li>
+        <a href="http://github.com/tybenz/gitdrop/tarball/master">Tar</a>
+      </li>
+      <li>
+        <a href="http://github.com/tybenz/gitdrop">Fork</a>
+      </li>
+    </ul>
+    <div class="social">
+      <a href="http://github.com/tybenz">
+        <img src="img/octocat.png" alt="" />
+      </a>
+      <a href="http://twitter.com/tybenz">
+        <img src="img/twitter.png" alt="" />
+      </a>
+    </div>
+  </div>
+
+  <div class="main">
+    <h2 id='about'>About</h2>
+
+<p>This Mac application is meant for using your GitHub Page as a file server. It behaves identically to <a href='http://dockdropx.com/'>Dockdrop</a> in that all you do is drag a file to the GitDrop icon. Gitdrop will then add your file into your local repository and push it up to the remote repo, putting the link to the file in your clipboard. This will allow users to quickly share files using a GitHub Pages repository.</p>
+
+<h2 id='configuring_the_app'>Configuring the App</h2>
+
+<p>To get the most out of Gitdrop you should have a special GitHub Page meant for hosting files you need to share. If you don&#8217;t already have one that will work, here&#8217;s how you can create one:</p>
+
+<ol>
+<li>Create a <a href='https://github.com/new'>new GitHub repository</a>. Call it something like &#8220;Share&#8221;</li>
+
+<li>Create a GitHub Page for it by following the instructions <a href='http://help.github.com/pages/'>here</a></li>
+
+<li>Clone the repo onto your local machine</li>
+</ol>
+
+<p>Now to actually configure the app:</p>
+
+<ol>
+<li>Paste the GitDrop.app file into your Applications directory and drag it to your dock.</li>
+
+<li>Right click on the app in Finder and click &#8220;Show Package Contents&#8221;</li>
+
+<li>Go to Contents/Resources and edit the file &#8220;script&#8221; in your favorite text editor.</li>
+
+<li>Edit the DIR and URL variables to the appropriate values (see below) and save</li>
+</ol>
+<div class='highlight'><pre><code class='javascript'><span class='nx'>DIR</span><span class='o'>=</span><span class='s2'>&quot;path/to/your/local/repo&quot;</span>
+<span class='nx'>URL</span><span class='o'>=</span><span class='s2'>&quot;yourgithubpage.com&quot;</span>
+</code></pre>
+</div>
+<p>You now have a quick and easy way to share files by merely dragging a file to GitDrop and pasting the URL pointing to your GitHub Page.</p>
+
+<p>That&#8217;s it! You&#8217;re ready to start using GitDrop. Tell your friends!</p>
+
+<h2 id='contact'>Contact</h2>
+
+<ul>
+<li>Email: <a href='mailto:tabenziger@gmail.com'>tabenziger@gmail.com</a></li>
+
+<li>Twitter: <a href='https://twitter.com/#!/tybenz'>@tybenz</a></li>
+</ul>
+  </div>
+
+</body>
+</html>
