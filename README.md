@@ -38,5 +38,5 @@ That's it! You're ready to start using GitDrop. Tell your friends!
 
 ### Contact
 
-  * Email: [tbenzige@adobe.com](mailto:tbenzige@adobe.com)
+  * Email: [tabenziger@gmail.com](mailto:tabenziger@gmail.com)
   * Twitter: [@tybenz](https://twitter.com/#!/tybenz)
