@@ -2,9 +2,9 @@
 
 DIR="/Users/tbenzige/Projects/aws" # Path to gh-pages repo
 URL="http://awes0.me" # Domain and path to where the GitHub Page lives on the web
-BASE=`basename $1`
+BASE=`basename ${1// /_}`
 
-cp $1 $DIR
+cp "$1" "$DIR/$BASE"
 cd $DIR
 git add $BASE
 git commit -m "$BASE added"
